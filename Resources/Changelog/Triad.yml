@@ -707,3 +707,10 @@ Entries:
   id: 2207
   time: '2026-05-18T23:58:09.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/98
+- author: Minerva
+  changes:
+    - type: Tweak
+      message: Gas tank dispensers now stock water vapor tanks.
+  id: 2208
+  time: '2026-05-19T03:20:58.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/100
