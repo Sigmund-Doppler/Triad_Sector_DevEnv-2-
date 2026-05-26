@@ -948,3 +948,16 @@ Entries:
   id: 2231
   time: '2026-05-26T14:22:29.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/131
+- author: rebaserHEAD
+  changes:
+    - type: Tweak
+      message: Shutters can now be rotated at placement.
+    - type: Fix
+      message: >-
+        Shutter frames anchor on creation, so they no longer drift off-tile
+        mid-build.
+    - type: Tweak
+      message: Shutters can be built on tiles that already hold a window or grille.
+  id: 2232
+  time: '2026-05-26T14:53:24.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/116
