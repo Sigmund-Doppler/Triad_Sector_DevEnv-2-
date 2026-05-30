@@ -1035,3 +1035,10 @@ Entries:
   id: 2242
   time: '2026-05-30T17:20:05.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/163
+- author: Minerva
+  changes:
+    - type: Tweak
+      message: Reptilians can now have hair, though not facial hair.
+  id: 2243
+  time: '2026-05-30T17:23:20.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/77
