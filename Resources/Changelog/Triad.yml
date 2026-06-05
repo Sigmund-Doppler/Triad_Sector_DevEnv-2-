@@ -1258,3 +1258,10 @@ Entries:
   id: 2265
   time: '2026-06-04T03:12:26.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/139
+- author: DDrakov
+  changes:
+    - type: Remove
+      message: Revert the targeting lock
+  id: 2266
+  time: '2026-06-05T00:36:18.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/184
