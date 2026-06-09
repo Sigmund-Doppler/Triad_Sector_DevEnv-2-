@@ -1347,3 +1347,10 @@ Entries:
   id: 2274
   time: '2026-06-08T23:56:41.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/189
+- author: SquishyEmmaaaa
+  changes:
+    - type: Add
+      message: Ported new Raccoon and Squirrel tails and ears!
+  id: 2275
+  time: '2026-06-09T00:00:46.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/188
