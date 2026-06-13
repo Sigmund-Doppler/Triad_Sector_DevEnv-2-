@@ -125,7 +125,7 @@ public sealed class AtmosMonitoringTest
         server.RunTicks(60);
         await server.WaitIdleAsync();
 
-        GasMixture? tileMixture = null;
+        GasMixture tileMixture = null;
         await server.WaitAssertion(() =>
         {
             var atmosMonitor = entMan.GetComponent<AtmosMonitorComponent>(airSensor);
