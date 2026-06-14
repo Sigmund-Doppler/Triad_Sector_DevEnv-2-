@@ -1553,3 +1553,10 @@ Entries:
   id: 2295
   time: '2026-06-14T03:53:57.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/179
+- author: DDrakov
+  changes:
+    - type: Fix
+      message: 'Revert the #220 PR because issues'
+  id: 2296
+  time: '2026-06-14T05:25:45.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/223
