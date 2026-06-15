@@ -1617,3 +1617,12 @@ Entries:
   id: 2303
   time: '2026-06-15T13:02:54.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/231
+- author: SomeoneElsHere
+  changes:
+    - type: Add
+      message: >-
+        Added a noise and message to Handheld/Non-Handheld Crew Monitoring
+        Consoles if you gain 100+ damage at once.
+  id: 2304
+  time: '2026-06-15T13:06:28.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/192
