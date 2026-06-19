@@ -1743,3 +1743,20 @@ Entries:
   id: 2312
   time: '2026-06-19T19:38:26.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/237
+- author: rebaserHEAD
+  changes:
+    - type: Tweak
+      message: >-
+        The RPD builds vents, scrubbers, injectors, filters, mixers, valves, and
+        canister ports on the pipe layer you're aiming at, just like pipes.
+    - type: Fix
+      message: >-
+        The RPD can deconstruct pipes hidden under floor tiles or sitting
+        beneath firelocks, and it targets the layer you aim at.
+    - type: Fix
+      message: >-
+        RPD-built devices respect their facing at placement time, so rotated
+        builds no longer collide with devices they don't actually overlap.
+  id: 2313
+  time: '2026-06-19T20:13:45.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/216
