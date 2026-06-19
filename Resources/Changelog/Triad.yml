@@ -1736,3 +1736,10 @@ Entries:
   id: 2311
   time: '2026-06-19T18:17:38.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/235
+- author: Upstream
+  changes:
+    - type: Add
+      message: Added stencil lettering decals to the spraypainter.
+  id: 2312
+  time: '2026-06-19T19:38:26.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/237
