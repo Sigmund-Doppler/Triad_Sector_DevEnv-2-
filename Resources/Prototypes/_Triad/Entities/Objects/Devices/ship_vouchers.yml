@@ -1,0 +1,31 @@
+#LPC base (just different sprites)
+- type: entity
+  abstract: true
+  parent: BaseShipVoucher
+  id: BaseShipDSID
+  name: ship DSID
+  description: Contains the necessary data for a shipyard console to produce a certain design.
+  components:
+  - type: Sprite
+    sprite: _Triad/Objects/Misc/dedicated_ship_ID.rsi
+
+- type: entity
+  parent: BaseShipDSID
+  id: ShipVoucherEphemere
+  name: Ephemere Dedicated Ship ID
+  description: A small card that contains the data for the procurement of a Ephemere-class DoC ship. Do not lost the DSID
+  components:
+  - type: Sprite
+    layers:
+    - state: med_ID_handle
+    - state: motherboard
+    - state: command_clearance
+    - state: med_logo
+  - type: ShipyardVoucher
+    destroyOnEmpty: true
+    consoleType: Medical
+    companyName: MD
+    vessels:
+    - ephemere
+  - type: StaticPrice
+    vendPrice: 150000
